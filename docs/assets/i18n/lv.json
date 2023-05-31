@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "majas": "Mājas",
+    "kursi": "Studiju kursi",
+    "buj": "BUJ",
+    "dfsp": "DF SP",
+    "galerijas": "Galerijas",
+    "aktivists": "Aktīvists",
+    "suveniri": "Suvenīri",
+    "kontakti": "Kontakti"
+  },
+  "home": {
+    "celsUzLu": "Mans ceļš uz Latvijas Universitāti"
+  }
+}
