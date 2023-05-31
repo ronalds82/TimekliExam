@@ -1,0 +1,93 @@
+<nav>
+   <div class="navbar-left">
+      <a routerLink="/majas">
+         <img src="../../assets/logo.png"
+              alt="Navbar Icon"
+              width="75"
+              height="75">
+      </a>
+   </div>
+
+   <div class="navbar-right"
+        [ngClass]="{ 'responsive': isResponsive }">
+      <a class="navbar-link"
+         routerLink="/majas"
+         routerLinkActive="active">
+         Mājas
+      </a>
+
+      <div class="dropdown">
+         <div class="dropdown-title"
+              aria-haspopup="true"
+              aria-expanded="false">
+            Ceļš >
+         </div>
+         <div class="dropdown-content">
+            <a class="navbar-link"
+               routerLink="/sabiedriskais"
+               routerLinkActive="active">
+               Sabiedriskais transports
+            </a>
+            <a class="navbar-link"
+               routerLink="/automasina"
+               routerLinkActive="active">
+               Automašīna
+            </a>
+            <a class="navbar-link"
+               routerLink="/ar-kajam"
+               routerLinkActive="active">
+               Ar kājām
+            </a>
+            <a class="navbar-link"
+               routerLink="/alternativas"
+               routerLinkActive="active">
+               Alternatīvas
+            </a>
+         </div>
+      </div>
+
+      <a class="navbar-link"
+         routerLink="/skersli"
+         routerLinkActive="active">
+         Šķēršļi
+      </a>
+      <a class="navbar-link"
+         routerLink="/iespejas"
+         routerLinkActive="active">
+         Iespējas
+      </a>
+      <a class="navbar-link"
+         routerLink="/piedzivojumi"
+         routerLinkActive="active">
+         Piedzīvojumi
+      </a>
+
+      <div class="dropdown">
+         <div class="dropdown-title"
+              aria-haspopup="true"
+              aria-expanded="false">
+            Valoda
+         </div>
+         <div class="dropdown-content">
+            <a class="navbar-link"
+               routerLink="/sabiedriskais"
+               routerLinkActive="active">
+               LV
+            </a>
+            <a class="navbar-link"
+               routerLink="/automasina"
+               routerLinkActive="active">
+               EN
+            </a>
+         </div>
+      </div>
+   </div>
+
+   <div class="hamburger-icon"
+        (click)="toggleResponsive()">
+      <img src="../../assets/hamburger.png"
+           alt="Hamburger Icon"
+           width="50"
+           height="50">
+   </div>
+</nav>

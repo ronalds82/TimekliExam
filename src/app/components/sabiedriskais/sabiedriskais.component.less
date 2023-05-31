@@ -1,0 +1,46 @@
+@import "../../app.component.less";
+
+.sabiedriskais-wrapper {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.link-button-right {
+    margin-left: auto;
+}
+
+.sabiedriskais-content {
+    padding: 100px;
+    background-color: @white-color;
+    color: @dark-blue-color;
+    display: flex;
+}
+
+.sabiedriskais-content-text {
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.sabiedriskais-content-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.sabiedriskais-picture {
+    align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+    .sabiedriskais-content {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .sabiedriskais-picture {
+        margin: 50px auto;
+    }
+
+    .sabiedriskais-content-text {
+        margin-right: 0;
+    }
+}

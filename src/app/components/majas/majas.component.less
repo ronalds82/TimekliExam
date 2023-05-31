@@ -1,0 +1,90 @@
+@import "../../app.component.less";
+
+.home-wrapper {
+    display: flex;
+    background: @dark-blue-color url("../../../assets/home-background.png") no-repeat fixed center;
+}
+
+.home-title {
+    display: flex;
+    margin: 350px 50px 0 100px;
+}
+
+.name {
+    color: @light-blue-color;
+    font-size: 44px;
+}
+
+.description {
+    font-size: 38px;
+    margin-bottom: 100px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 50px solid @light-blue-color;
+  }
+
+.link-button-right {
+    margin-left: auto;
+}
+
+.home-content {
+    padding: 100px;
+    background-color: @white-color;
+    color: @dark-blue-color;
+    display: flex;
+}
+
+.home-content-text {
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.home-content-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.home-picture {
+    align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+    .home-content {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .home-picture {
+        margin: 50px auto;
+    }
+
+    .home-content-text {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 506px) {
+    .home-picture {
+        margin: 50px auto 0 auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    .home-picture > img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .home-wrapper {
+        margin-right: 0px;
+    }
+
+    .home-title {
+        margin: auto 0 50px 50px;
+    }
+}

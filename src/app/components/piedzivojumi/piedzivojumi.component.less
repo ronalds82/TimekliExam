@@ -1,0 +1,46 @@
+@import "../../app.component.less";
+
+.piedzivojumi-wrapper {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.link-button-right {
+    margin-left: auto;
+}
+
+.piedzivojumi-content {
+    padding: 100px;
+    background-color: @white-color;
+    color: @dark-blue-color;
+    display: flex;
+}
+
+.piedzivojumi-content-text {
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.piedzivojumi-content-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.piedzivojumi-picture {
+    align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+    .piedzivojumi-content {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .piedzivojumi-picture {
+        margin: 50px auto;
+    }
+
+    .piedzivojumi-content-text {
+        margin-right: 0;
+    }
+}

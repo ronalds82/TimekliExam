@@ -1,0 +1,46 @@
+@import "../../app.component.less";
+
+.automasina-wrapper {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.link-button-right {
+    margin-left: auto;
+}
+
+.automasina-content {
+    padding: 100px;
+    background-color: @white-color;
+    color: @dark-blue-color;
+    display: flex;
+}
+
+.automasina-content-text {
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.automasina-content-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.automasina-picture {
+    align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+    .automasina-content {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .automasina-picture {
+        margin: 50px auto;
+    }
+
+    .automasina-content-text {
+        margin-right: 0;
+    }
+}

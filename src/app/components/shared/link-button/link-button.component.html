@@ -1,0 +1,16 @@
+<ng-container>
+    <a *ngIf="!isReverse; else reverse"
+       class="link-button"
+       routerLink="{{ routerLink }}"
+       routerLinkActive="active">
+        <span class='nav-link'>&#8594;</span>
+    </a>
+</ng-container>
+
+<ng-template #reverse>
+    <a class="link-button-reverse"
+       routerLink="{{ routerLink }}"
+       routerLinkActive="active">
+        <span class='nav-link'>&#8592;</span>
+    </a>
+</ng-template>

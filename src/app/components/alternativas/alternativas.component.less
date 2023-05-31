@@ -1,0 +1,46 @@
+@import "../../app.component.less";
+
+.alternativas-wrapper {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.link-button-right {
+    margin-left: auto;
+}
+
+.alternativas-content {
+    padding: 100px;
+    background-color: @white-color;
+    color: @dark-blue-color;
+    display: flex;
+}
+
+.alternativas-content-text {
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.alternativas-content-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.alternativas-picture {
+    align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+    .alternativas-content {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .alternativas-picture {
+        margin: 50px auto;
+    }
+
+    .alternativas-content-text {
+        margin-right: 0;
+    }
+}

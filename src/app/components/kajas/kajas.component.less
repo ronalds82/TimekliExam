@@ -1,0 +1,46 @@
+@import "../../app.component.less";
+
+.kajas-wrapper {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.link-button-right {
+    margin-left: auto;
+}
+
+.kajas-content {
+    padding: 100px;
+    background-color: @white-color;
+    color: @dark-blue-color;
+    display: flex;
+}
+
+.kajas-content-text {
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.kajas-content-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.kajas-picture {
+    align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+    .kajas-content {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .kajas-picture {
+        margin: 50px auto;
+    }
+
+    .kajas-content-text {
+        margin-right: 0;
+    }
+}

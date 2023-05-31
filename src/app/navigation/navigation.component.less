@@ -1,0 +1,134 @@
+@import "../app.component.less";
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: @dark-blue-color;
+  padding: 20px 0;
+}
+
+.navbar-left {
+  margin-left: 100px;
+}
+  
+.navbar-right {
+  display: flex;
+  align-items: center;
+  background-color: @white-color;
+  padding-right: 200px;
+}
+  
+.navbar-link, 
+.dropdown
+{
+  color: @dark-blue-color;
+  text-decoration: none;
+  padding: 20px 30px;
+  font-weight: bold;
+  text-align: center;
+  min-width: 75px;
+}
+
+.navbar-link:hover, 
+.dropdown:hover {
+  background-color: @gold-color;
+  text-decoration: underline;
+}
+
+.active {
+  background-color: @gold-color !important;
+  text-decoration: underline !important;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: @light-gray-color;
+  z-index: 2;
+  top: 100%;
+  left: -7%;
+}
+
+.dropdown-content .navbar-link:not(:last-of-type) {
+  border-bottom: 1px dashed @dark-blue-color; 
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+@media (max-width: 1500px) {
+  .navbar-right {
+    padding-right: 60px;
+  }
+}
+  
+@media (max-width: 1000px) {
+  .navbar-right:not(.responsive) {
+    display: none;
+  }
+  
+  .navbar-right.responsive {
+    flex-direction: column;
+  }
+
+  .navbar-right.responsive {
+    position: absolute;
+    background-color: @white-color;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    top: 10%;
+
+    .navbar-link, 
+    .dropdown {
+      width: 100%;
+    }
+
+    .navbar-link {
+      padding: 20px 0;
+    }
+
+    .dropdown:hover {
+      padding: 20px 0 0 0;
+  
+      .dropdown-title {
+        padding-bottom: 20px;
+        border-bottom: 1px dotted @dark-blue-color; 
+      }
+    }
+  }
+
+  .navbar-right.responsive .dropdown,
+  .navbar-right.responsive a {
+    display: block;
+    text-align: center;
+  } 
+
+  .hamburger-icon {
+    display: inline-block;
+    z-index: 1;
+    margin-right: 60px;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: @light-gray-color;
+    z-index: 1;
+    left: 0;
+  }
+}
