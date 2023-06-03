@@ -1,5 +1,7 @@
+@import '../app.component.less';
+
 footer {
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -9,12 +11,18 @@ footer {
   align-items: center;
 }
 
-.contact-info p {
-  margin: 0;
+.contact-info {
   display: flex;
   flex-direction: row;
 }
 
+.contact-info div {
+  margin: 0 50px;
+  color: @gold-color;
+}
+
 .additional-text {
-  margin-top: 10px;
+  margin: 20px 50px 0 50px;
+  font-size: 12px;
+  color: @light-gray-color;
 }

@@ -1,15 +1,25 @@
 {
   "navbar": {
     "majas": "Mājas",
-    "kursi": "Studiju kursi",
-    "buj": "BUJ",
-    "dfsp": "DF SP",
-    "galerijas": "Galerijas",
-    "aktivists": "Aktīvists",
-    "suveniri": "Suvenīri",
-    "kontakti": "Kontakti"
+    "cels": "Ceļš",
+    "sabiedriskais": "Sabiedriskais transports",
+    "automasina": "Automašīna",
+    "ar-kajam": "Ar kājām",
+    "alternativas": "Alternatīvas",
+    "skersli": "Šķēršļi",
+    "iespejas": "Iespējas",
+    "piedzivojumi": "Piedzīvojumi"
   },
-  "home": {
-    "celsUzLu": "Mans ceļš uz Latvijas Universitāti"
+  "majas": {
+    "celsUzLu": "Mans ceļš uz Latvijas Universitāti",
+    "darzciems": "Dārzciems - manas mājas.",
+    "paragraph1": "",
+    "paragraph2": "",
+    "paragraph3": ""
+  },
+  "footer": {
+    "phone": "Tālrunis",
+    "email": "E-pasts",
+    "copyright": "Man patīk autortiesības"
   }
 }

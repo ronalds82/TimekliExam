@@ -13,35 +13,34 @@
       <a class="navbar-link"
          routerLink="/majas"
          routerLinkActive="active">
-         Mājas
+         {{ 'navbar.majas' | translate }}
       </a>
 
       <div class="dropdown">
          <div class="dropdown-title"
-              aria-haspopup="true"
-              aria-expanded="false">
-            Ceļš >
+              (click)="toggleDropdown()">
+            {{ 'navbar.cels' | translate }} >
          </div>
          <div class="dropdown-content">
             <a class="navbar-link"
                routerLink="/sabiedriskais"
                routerLinkActive="active">
-               Sabiedriskais transports
+               {{ 'navbar.sabiedriskais' | translate }}
             </a>
             <a class="navbar-link"
                routerLink="/automasina"
                routerLinkActive="active">
-               Automašīna
+               {{ 'navbar.automasina' | translate }}
             </a>
             <a class="navbar-link"
                routerLink="/ar-kajam"
                routerLinkActive="active">
-               Ar kājām
+               {{ 'navbar.ar-kajam' | translate }}
             </a>
             <a class="navbar-link"
                routerLink="/alternativas"
                routerLinkActive="active">
-               Alternatīvas
+               {{ 'navbar.alternativas' | translate }}
             </a>
          </div>
       </div>
@@ -49,36 +48,37 @@
       <a class="navbar-link"
          routerLink="/skersli"
          routerLinkActive="active">
-         Šķēršļi
+         {{ 'navbar.skersli' | translate }}
       </a>
       <a class="navbar-link"
          routerLink="/iespejas"
          routerLinkActive="active">
-         Iespējas
+         {{ 'navbar.iespejas' | translate }}
       </a>
       <a class="navbar-link"
          routerLink="/piedzivojumi"
          routerLinkActive="active">
-         Piedzīvojumi
+         {{ 'navbar.piedzivojumi' | translate }}
       </a>
 
-      <div class="dropdown">
-         <div class="dropdown-title"
-              aria-haspopup="true"
-              aria-expanded="false">
-            Valoda
-         </div>
-         <div class="dropdown-content">
-            <a class="navbar-link"
-               routerLink="/sabiedriskais"
-               routerLinkActive="active">
-               LV
-            </a>
-            <a class="navbar-link"
-               routerLink="/automasina"
-               routerLinkActive="active">
-               EN
-            </a>
+      <div class="language">
+         <div class="dropdown">
+            <div class="dropdown-title"
+                 (click)="toggleDropdown()">
+               🌍
+            </div>
+            <div class="dropdown-content">
+               <a class="navbar-link"
+                  [ngClass]="{'language-enabled': isLatvianEnabled}"
+                  (click)="changeLanguage('lv')">
+                  LV
+               </a>
+               <a class="navbar-link"
+                  [ngClass]="{'language-enabled': isEnglishEnabled}"
+                  (click)="changeLanguage('en')">
+                  EN
+               </a>
+            </div>
          </div>
       </div>
    </div>

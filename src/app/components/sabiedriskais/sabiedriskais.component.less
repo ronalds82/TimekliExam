@@ -14,16 +14,29 @@
     background-color: @white-color;
     color: @dark-blue-color;
     display: flex;
+    flex-direction: column;
+}
+
+.sabiedriskais-content-full {
+    display: flex;
+    height: fit-content;
+    margin-bottom: 50px;
 }
 
 .sabiedriskais-content-text {
-    margin-right: 50px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.sabiedriskais-content-text-reverse {
+    margin-left: 100px;
     text-align: justify;
 }
 
 .sabiedriskais-content-title {
     margin-bottom: 20px;
     font-weight: bold;
+    font-size: 28px;
 }
 
 .sabiedriskais-picture {
@@ -42,5 +55,13 @@
 
     .sabiedriskais-content-text {
         margin-right: 0;
+    }
+
+    .sabiedriskais-content-text-reverse {
+        margin-left: 0;
+    }
+
+    .sabiedriskais-content-full {
+        flex-direction: column;
     }
 }

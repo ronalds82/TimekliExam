@@ -26,19 +26,31 @@
 }
 
 .nav-link {
-    color: @white-color;
-    font-weight: bold;
-    min-width: 20px;
-    min-height: 20px;
-    display: flex;
-    justify-content: center;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid @white-color;
+    margin-left: 3px;
+}
+
+.nav-link-reverse {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid @white-color;
+    margin-right: 3px;
 }
 
 .link-button:hover, .link-button-reverse:hover {
     background-color: @gold-color;
 
     .nav-link {
-        color: @dark-blue-color;
-        font-weight: bold;
+        border-left: 10px solid @dark-blue-color;
+    }
+
+    .nav-link-reverse {
+        border-right: 10px solid @dark-blue-color;
     }
 }
