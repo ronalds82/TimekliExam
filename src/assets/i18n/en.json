@@ -13,9 +13,55 @@
   "majas": {
     "celsUzLu": "My way to the University of Latvia",
     "darzciems": "Dārzciems - my home.",
-    "paragraph1": "",
-    "paragraph2": "",
-    "paragraph3": ""
+    "paragraph1": "All my life I have lived in dārzciems - a small micro-district of Riga next to two other more widely known micro-districts - pļavnieki and purvciems. While living here, I have encountered a serious need to understand how to commute to the university better - where to get, how to get there and most importantly - how quickly it can be done. Looking at the location on the map, the dārzciems is relatively close to the center of Riga, which facilitates access to various services, as well as allows you to get everywhere you need, even without the need for a car.",
+    "paragraph2": "For the first years of my life, I studied right there in the dārzciems - Riga 93rd Secondary School was located a few hundred meters away, but I was playing ice hockey professionally, which made it necessary to find ways how to get from the dārzciems to Šmerlis forest. After I started studying at Riga State 1st gymnasium, my daily journey to and from the center of Riga became a routine, which made transportation an integral and important part of everyday life.",
+    "paragraph3": "Since the center of Riga is my most frequent destination, on this page I will tell you about various transportation options, as well as obstacles and various adventures that I have encountered during these years while regularly going to the center of Riga."
+  },
+  "sabiedriskais": {
+    "title": "Public transport options",
+    "paragraph1": "Usually, the journey by public transport takes 50 minutes under normal conditions - 12 minutes to the bus stop by walking, 30 minutes by transport, 5 minutes to the university by walking and +-3 minutes due to other conditions.",
+    "paragraph2": "It is possible to choose transport from my house in many ways. Starting with my favorites – bus No. 50 and trolley No. 22, which get to the center the fastest, thus saving time spent on public transport.",
+    "paragraph3": "There are many alternative options – buses No. 3, 6, 13, 20, 51, 52, all of which take the same amount of time both to get to the bus stop and from it to the university. If there is a desire to change buses, there are always possible transfer routes, for example, by bus No. 3 to the Pērnavas Street stop, then by tram No. 1 to the university.",
+    "paragraph4": "When minibuses were still available, I could go to the center with minibus No. 263 if I needed to get to the destination very quickly. It stopped at the Latvian Academy of Sciences and then I had to walk another 15 minutes when I was still studying at school.",
+    "paragraph5": "Taking into account my personal dislike of sitting for a long time in public transport and the fact that the time spent in them has become disproportionately large (which I write about on the Obstacles page), I currently choose it depending on the traffic jams, as well as the available time, without prioritizing bus No. 50 and trolley No. 22."
+  },
+  "automasina": {
+    "title": "Driving to the university",
+    "paragraph1": "My way by car is the fastest and easiest way to get to the university. You also have to consider the consequences - parking lots cost money. If I choose to park my car at the University, it will cost around 3 Eur per hour, not counting fuel costs and the difficulty of finding a place to park the car.",
+    "paragraph2": "In the situation, if I need to spend 1-2 hours at the university, I definitely choose the way to the university itself, where the fastest way is along the Augusta Deglava bridge, then Valmieras and Satekles streets until I get to the central station, where then I can start looking for places where to park the car.",
+    "paragraph3": "As an alternative route, I can also choose Dienvidu bridge and Krasta street, then enter the center area near the Latvian Academy of Sciences, where then look for options where to park the car so that it is as close as possible to the university.",
+    "paragraph4": "If it is necessary to go to the university all day, I drive again along the Dienvidu Bridge and then Krasta Street to get to the Latvian Academy of Sciences, where it is possible to park a car for 1 Eur per hour.",
+    "paragraph5": "There are always situations where it is necessary to drive on different bypass roads - not exactly on the indicated road, but the conceptual routes remain the same."
+  },
+  "kajas": {
+    "title": "Walking to the university",
+    "paragraph1": "Walking is the longest but healthiest way to get to the university. When I decide (mostly during the spring and summer) to walk to the university, I use it quite often. The journey on foot takes an average of 1 hour and 10 minutes, so I only go on foot if I'm really committed to it.",
+    "paragraph2": "The fastest way on foot was along Matīsa graveyard, but I decided to change this route to the same route as by car - along Augusta Deglava Bridge and Satekles Street, because the fastest way is not always the best. It is about 10 minutes longer route, but includes a much more lit area, especially in the evening hours, and is also much more suitable for pedestrians.",
+    "paragraph3": "In most cases, I walk home at night - public transport is not available at that time, and if I go home late from the center, taxis can also be expensive, so an hour's walk in the city center after a Friday night is definitely not bad for the next morning. Also, walking certainly helps to disconnect from the usual daily stress during that hour, which is often very useful if there is no urgent need to get to the university that day."
+  },
+  "alternativas": {
+    "title": "Alternatives",
+    "paragraph1": "All people have situations when it is necessary to get from point A to point B as quickly as possible. There are also situations where, due to various circumstances, moving by car, public transport or on foot is not optimal, so it is necessary to choose other methods.",
+    "paragraph2": "In a situation where I don't have access to my car, for example because it is under repair, I can choose to get to the university with a rental car from one of the rental apps “CityBee”, “Bolt Drive”, etc. It is a relatively expensive option, which can cost as much as parking. Also, I can choose to go to the university by taxi. I have only done this once and it was in a rather extreme situation.",
+    "paragraph3": "One of the most popular methods is by using rental electric scooters. They are cheap to rent and sometimes get you to the university faster than any other mode of transportation. There are also pleasant feelings when moving with it, there is also a free choice of the route, just like when moving on foot.",
+    "paragraph4": "Something I haven't used yet, but should start doing, is commuting to the university by bike. It could also be a good and convenient way to get around, but personally I think it could be a nuisance if you know you have a bike with you, which you also have to find a place to park, similar to a car."
+  },
+  "skersli": {
+    "title": "Obstacles",
+    "paragraph1": "On the way to the university, I face a lot of problems. In almost all situations, the biggest obstacle has been lack of time - I have to go to the university often. Currently, there are 2 major construction projects in Riga - Rail Baltica and Austrumu maģistrāle. This means that only one driving lane in each direction is open for the Augusta Deglava bridge, and the sidewalks have also been demolished. It is impossible to get into the center by car during the peak hours of the day, because several streets that go directly under the railway are blocked, for example, Gogoļa Street, which would be my main way to get to the center by car if the Augusta Deglava Bridge was unavailable.",
+    "paragraph2": "Since I work in the Student Council of the University of Latvia, I often need to get from home to the university during the peak hours of the day. This means that traveling by public transport is not an option as it would take too much time, and there are now no student discounts on tickets. If we look at other possible ways, it could also be difficult without a car - bicycle infrastructure in Riga is still not developed well enough. It hinders the movement of both cyclists and those who ride an electric scooter or walk. This means that my only and fastest option is to go by car to the parking lot near the Latvian Academy of Sciences, where I also park my car for a small fee, and then walk 15 minutes to get to the university."
+  },
+  "iespejas": {
+    "title": "Future oppurtunities",
+    "paragraph1": "The future promises to be positive with many new opportunities to get to university. Starting with the fact that Rail Baltica is currently under construction, which means that the railway station would be much more organized and accessible to everyone. Taking into account the plans and train speeds, you could consider going to the “Jāņavārti” station on foot, and then take the train to the central station. The time spent on the road might be a bit longer than with public transport, but there is no need to worry about traffic jams as the trains would definitely always arrive at the station on time, which means it is easier to rely on the time spent on the road to plan your day.",
+    "paragraph2": "Of course, at some point bicycle infrastructure could be more accessible in Riga, then bicycle rental could also appear, similar to electric scooters at the moment - pick up at any corner and ride. Then the time spent on the road could be similar to what it is now with a bicycle.",
+    "paragraph3": "Since Riga is currently slowly moving towards a city where it will no longer be possible to enter by car for free, it could be that in the future there will be many new ways to get to the university that I haven't even thought of."
+  },
+  "piedzivojumi": {
+    "title": "Interesting adventures",
+    "paragraph1": "On the way to the university, there have been several incidents that I have captured. As one of them - a passer-by threw a stone at the bus stop and broke the door window of public transport. Similarly, during one of the earlier trips to the university, the public transport driver did not calculate the required space and broke the mirror against a tree growing on the side.",
+    "paragraph2": "Going to the university by foot, bicycle or electric scooter, you have to cross a lot of intersections. One day I decided that I would go to the university on foot. At one point, I was crossing the intersection of a large street when a cyclist was coming towards me, who was hit in front of me - it's good that the cyclist was not seriously injured, but it always reminds of the need for drivers to pay attention to the road, and also for other road users not to move with headphones in their ears, always check the road before crossing the pedestrian crossing, and follow the traffic rules.",
+    "paragraph3": "Also, one of the most terrible situations was at the Matīsa graveyard. I went home from the university on the fastest route and a man passed me, who then started behaving very inappropriately. While in front, at one point he started looking back at me, smiling, and then at one point he pulled out a syringe of what was probably hard drugs. I immediately turned around and went away, and chose to go home by public transport to avoid this man."
   },
   "footer": {
     "phone": "Phone",

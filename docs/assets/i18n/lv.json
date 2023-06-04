@@ -12,10 +12,56 @@
   },
   "majas": {
     "celsUzLu": "Mans ceļš uz Latvijas Universitāti",
-    "darzciems": "Dārzciems - manas mājas.",
-    "paragraph1": "",
-    "paragraph2": "",
-    "paragraph3": ""
+    "darzciems": "Dārzciems - manas mājas",
+    "paragraph1": "Visu savu dzīvi esmu dzīvojis dārzciemā - nelielā Rīgas mikrorajonā blakus diviem citiem plašāk pazīstamiem mikrorajoniem - pļavniekiem un purvciema. Dzīvojot šeit, esmu saskāries ar pamatīgu pārvietošanās nepieciešamību - kur nokļūt, kā nokļūt un pats galvenais - cik ātri tas ir izdarāms. Skatoties no novietojuma kartē, dārzciems ir relatīvi tuvu Rīgas centram, kas atvieglo piekļuvi dažādiem pakalpojumiem, kā arī ļauj nokļūt visur, kur nepieciešams, arī bez automašīnas nepieciešamības.",
+    "paragraph2": "Pirmos savus dzīves gadus mācījos turpat dārzciemā - pāris simt metru attālumā atradās Rīgas 93. vidusskola, tomēr trenējos hokejā, kas radīja nepieciešamību atrast veidus, kā no dārzciema nokļūt līdz Šmerļa mežam. Pēc tam, kad sāku mācīties Rīgas Valsts 1. ģimnāzijā, mans ikdienas ceļojums uz un no Rīgas centra kļuva nu jau ikdienišķs, kas pārvietošanos padarīja par neatņemamu un svarīgu ikdienas sastāvdaļu.",
+    "paragraph3": "Tā kā Rīgas centrs ir mans visbiežākais galamērķis, šajā lapā pastāstīšu par dažādām pārvietošanās iespējām, kā arī šķēršļiem un dažādiem piedzīvojumiem, ar kuriem esmu sastapies šo gadu laikā, regulāri dodoties uz Rīgas centru."
+  },
+  "sabiedriskais": {
+    "title": "Ceļš ar sabiedrisko transportu",
+    "paragraph1": "Pārsvarā ceļš ar sabiedrisko transportu normālos apstākļos aizņem 50 minūtes – 12 minūtes līdz pieturai ar kājām, 30 minūtes ar transportu, 5 minūtes līdz universitātei ar kājām un +-3 minūtes citu apstākļu dēļ.",
+    "paragraph2": "No manas mājas ir iespējams izvēlēties transportu ļoti daudzos veidos. Sākot ar maniem iecienītākajiem – 50. autobuss un 22. trolejbuss, kuri visātrāk nokļūst līdz centram, tādējādi ietaupot patērēto laiku sabiedriskajā transportā.",
+    "paragraph3": "Pastāv ļoti daudz alternatīvu opciju – 3., 6., 13., 20., 51., 52. autobuss, kuriem visiem ir vienlīdz liels laiks gan nokļūšanai uz pieturu, gan no galapunkta nokļūt līdz universitātei. Ja ir vēlme pārsēsties, vienmēr ir iespējami pārsēšanās maršruti, piemēram, ar 3. autobusu līdz Pērnavas ielas pieturai, tad ar 1. tramvaju līdz universitātei.",
+    "paragraph4": "Kad bija vēl pieejami arī mikroautobusi, varēju doties uz centru ar 263. mikroautobusu, ja bija nepieciešams ļoti ātri nokļūt galapunktā. Tas gan apstājās pie Latvijas Zinātņu akadēmijas un tad nācās vēl 15 minūtes mērot ar kājām, kad vēl mācījos skolā.",
+    "paragraph5": "Ņemot vērā manu personīgo nepatiku ilgi sēdēt sabiedriskajā transportā un to, ka tajos patērētais laiks gan ir kļuvis nesamērojami liels (par ko rakstu Sķēršļu lapā), šobrīd to izvēlos atkarībā no sastrēgumiem, kā arī pieejamā laika, neprioritizējot 50. autobusu un 22. trolejbusu."
+  },
+  "automasina": {
+    "title": "Ceļš uz universitāti ar automašīnu",
+    "paragraph1": "Mans ceļš ar automašīnu ir visātrākais un vienkāršākais veids, kā tikt līdz universitātei. Ir jārēķinās arī ar sekām – autostāvvietas maksā naudu. Ja izvēlos mašīnu novietot pie LU, tas izmaksās ap 3 Eur stundā, neskaitot degvielas izmaksas un grūtības atrast vietu, kur auto novietot.",
+    "paragraph2": "Situācijā, ja man ir nepieciešams universitātē pavadīt 1-2 stundas, es noteikti izvēlos ceļu uz pašu universitāti, kur visātrākais ceļš ir pa Augusta Deglava tiltu, tad Valmieras un Satekles ielu līdz nonāku pie centrālās stacijas, kur tad arī varu sākt meklēt vietas, kur novietot automašīnu.",
+    "paragraph3": "Kā alternatīvo ceļu varu izvēlēties arī Dienvidu tiltu un krasta ielu, tad pie Latvijas Zinātņu akadēmijas iebraukt centra rajonā, kur tad meklēt iespējas, kur novietot auto, lai tas būtu pēc iespējas tuvāk universitātei.",
+    "paragraph4": "Ja uz universitāti ir nepieciešams doties visu dienu, braucu atkal pa Dienvidu tiltu un tad krasta ielu, lai nokļūtu pie Latvijas Zinātņu Akadēmijas, kur ir iespējams novietot mašīnu uz 1 Eur stundā.",
+    "paragraph5": "Vienmēr gadās arī situācijas, kur ir nepieciešams braukt pa dažādiem apbraucamajiem ceļiem – ne gluži tieši pa norādīto ceļu, taču konceptuāli maršruti saglabājas tādi paši"
+  },
+  "kajas": {
+    "title": "Ceļš uz universitāti ar kājām",
+    "paragraph1": "Ceļš ar kājām ir visilgākais, taču veselīgākais nokļūšanas veids līdz universitātei. Tad, kad apņemos (pārsvarā pavasara un vasaras periodā) iet ar kājām uz universitāti, to izmantoju diezgan bieži. Ceļš ar kājām vidēji aizņem 1 stundu 10 minūtes, kā rezultātā dodos ar kājām tikai tad, ja to esmu patiešām apņēmies.",
+    "paragraph2": "Ātrākais ceļš ar kājām bija pa gar Matīsa kapiem, taču nolēmu šo maršrutu nomainīt uz tādu pašu, kāds ir ar automašīnu – pa Augusta Deglava tiltu un Satekles ielu, jo tas ātrākais ceļš ne vienmēr ir tas labākais. Tas ir aptuveni par 10 minūtēm garāks maršruts, tomēr ietver daudz apgaismotāku apvidu īpaši vakara stundās, kā arī tas maršruts ir daudz piemērotāks gājējiem.",
+    "paragraph3": "Lielākajā daļā gadījumu ar kājām dodos mājup naktīs – sabiedriskie transporti tajā brīdī nav pieejami, un, ja vēlu dodos mājup no centra, taksis arī var izmaksāt dārgi, tāpēc stundas pastaiga pēc piektdienas vakara pilsētas centrā noteikti nenāk par sliktu nākamās dienas rītam. Tāpat noteikti iešana ar kājām palīdz tās stundas laikā atslēgties no ierastā ikdienas stresa, kas bieži vien ir ļoti noderīgi, ja konkrētajā dienā uz universitāti nav nepieciešams nokļūt steidzami."
+  },
+  "alternativas": {
+    "title": "Alternatīvas",
+    "paragraph1": "Visiem cilvēkiem gadās situācijas, kad ir nepieciešams nokļūt no punkta A uz punktu B pēc iespējas ātrāk. Tāpat gadās situācijas, kur dažādu apstākļu dēļ pārvietošanās ar mašīnu, sabiedrisko transportu vai ar kājām nav tā optimālākā, tāpēc ir nepieciešams izvēlēties citas metodes.",
+    "paragraph2": "Situācijā, ja man nav pieejama sava mašīna, jo, piemēram, tā atrodas remontā, es varu izvēlēties nokļūt līdz universitātei ar nomas mašīnu kādā no nomas lietotnēm “CityBee”, “Bolt Drive” utt. Tā ir samērā dārga opcija, kas var izmaksāt tikpat, cik mašīnas novietošana autostāvvietā. Tāpat es varu izvēlēties doties uz universitāti ar taksi. To gan esmu darījis tikai vienu reizi un tas ir bijis diezgan ekstrēmā situācijā.",
+    "paragraph3": "Viena no iecienītākajām metodēm ir, izmantojot nomas elektroskūterus. To noma ir lēta, kā arī ar tiem dažkārt ir nokļūt līdz universitātei ātrāk nekā ar jebkuru citu pārvietošanās veidu. Tāpat ir arī patīkamas sajūtas ar to pārvietojoties, ir arī brīva izvēle maršrutam, tāpat kā pārvietojoties ar kājām.",
+    "paragraph4": "To, ko es neesmu ne reizi vēl izmantojis, taču derētu sākt, ir pārvietošanās uz universitāti ar velosipēdu. Tas arī varētu būt labs un ērts pārvietošanās veids, taču personīgi uzskatu, ka tas varētu būt traucējoši, ja zini, ka tev ir līdzi velosipēds, kuru ir arī jāatrod, kur nolikt, līdzīgi kā mašīnu."
+  },
+  "skersli": {
+    "title": "Šķēršļi",
+    "paragraph1": "Ceļā uz universitāti saskaros ar ļoti daudz problēmām. Gandrīz visās situācijās lielākais šķērslis ir bijis laika nepietiekamība – uz universitāti man jādodas ir bieži. Šobrīd Rīgā aktuāli ir 2 lieli būvniecības projekti – Rail Baltica un Austrumu maģistrāle. Tas nozīmē, ka Augusta Deglava tiltam ir atvērta tikai viena braukšanas josla katrā virzienā, arī trotuāri ir noārdīti. Centrā tikt iekšā ar automašīnu diennakts pīķa stundās nav iespējams, jo ir nobloķētas vairākas ielas, kas iet tieši zem dzelzceļa, piemēram, Gogoļa iela, kas Augusta Deglava tilta nepieejamības gadījumā būtu mans galvenais veids, kā ar automašīnu nokļūt centrā.",
+    "paragraph2": "Tā kā strādāju Latvijas Universitātes Studentu padomē, tad bieži vien man ir nepieciešams no mājām līdz universitātei nokļūt diennakts pīķa stundās. Tas nozīmē, ka pārvietošanās ar sabiedrisko transportu nav iespējama, jo tā aizņems pārāk daudz laika, kā arī tagad vairs nav pieejamas studentu atlaides par biļetēm. Ja paskatāmies uz citiem iespējamajiem veidiem, tad bez automašīnas arī varētu būt sarežģīti – veloinfrastruktūra Rīgā vēljoprojām nav attīstīta pietiekami labi. Tas traucē pārvietoties gan velosipēdistiem, gan tiem, kas brauc ar elektroskūteri vai iet ar kājām. Tas nozīmē, ka mana vienīgā un ātrākā opcija ir ar automašīnu doties uz stāvvietu pie Latvijas Zinātņu Akadēmijas, kur tad arī novietoju savu mašīnu par nelielu samaksu, un tad mēroju 15 minūtes ar kājām, lai nokļūtu universitātē."
+  },
+  "iespejas": {
+    "title": "Nākotnes iespējas",
+    "paragraph1": "Nākotne solās būt pozitīva ar daudz jaunām iespējām, kā nokļūt līdz universitātei. Sākot ar to, ka šobrīd notiek Rail Baltica būvniecība, kas nozīmē, ka dzelzceļa stacija būtu daudz sakārtotāka un pieejamāka visiem. Ņemot vērā plānus un vilcienu kustības ātrumus, varētu apsvērt līdz “Jāņavārtu” stacijai doties ar kājām, lai ar vilcienu tad dotos līdz centrālajai stacijai. Patērētais laiks ceļā varētu būt nedaudz lielāks kā ar sabiedrisko transportu, taču nav jāuztraucās par sastrēgumiem, jo vilcieni noteikti varētu vienmēr iebraukt stacijā laikā, kas nozīmē, ka ir vieglāk paļauties uz pavadīto laiku ceļā, lai plānotu savu dienu.",
+    "paragraph2": "Protams, noteikti kādā momentā varētu būt labāk pieejama veloinfrastruktūra Rīgā, tad arī varētu parādīties velosipēdu noma līdzīgi kā elektroskūteriem šobrīd – paņem uz jebkura stūra un brauc. Tad patērētais laiks ceļā varētu līdzināties tam, kāds ir šobrīd ar velosipēdu.",
+    "paragraph3": "Tā kā Rīga šobrīd lēnām virzās uz pilsētu, kurā nevarēs vairs bez maksas iebraukt ar automašīnu, varētu būt, ka nākotnē parādās daudzi jauni veidi nokļūšanai uz universitāti, par kuriem neesmu pat iedomājies."
+  },
+  "piedzivojumi": {
+    "title": "Interesanti piedzīvojumi",
+    "paragraph1": "Pa ceļam uz universitāti ir gadījušies vairāki gadījumi, kurus arī esmu iemūžinājis. Kā viens no tiem – kāds garāmgājējs pieturā meta ar akmeni un izsita durvju logu sabiedriskajam transportam. Tāpat arī vienā no senākiem braucieniem uz universitāti, sabiedriskā transporta vadītājs neaprēķināja nepieciešamo vietu un nolauza spoguli pret malā augošo koku.",
+    "paragraph2": "Dododies ar kājām, velosipēdu vai elektroskūteri uz universitāti, nākas šķērsot ļoti daudz krustojumu. Kādā dienā nolēmu, ka došos uz universitāti ar kājām. Vienā brīdī šķērsoju lielas ielas krustojumu, kad man pretī brauca riteņbraucējs, kurš manā priekšā tika notriekts – labi, ka velosipēdists iztika bez smagām traumām, taču tas vienmēr atgādina gan par autovadītāju nepieciešamību pievērst uzmanību ceļam, gan arī pārējiem satiksmes dalībniekiem nepārvietoties ar austiņām ausīs, vienmēr pārbaudīt ceļu pirms pāriet pāri gājēju pārejai, kā arī ievērot ceļu satiksmes noteikumus.",
+    "paragraph3": "Tāpat viena no šausmīgākajām situācijām ir bijusi pie Matīsa kapiem. No universitātes devos mājup pa ātrāko maršrutu un man garām gāja vīrietis, kurš pēc tam sāka uzvesties ļoti neadekvāti. Esot priekšā, viņš vienā brīdī sāka skatīties atpakaļ uz manu pusi, smaidīt un tad vienā brīdī izvilka šļirci ar, visticamāk, smagām narkotikām. Uzreiz devos uz otru pusi un izvēlējos uz mājām doties ar sabiedrisko transportu, lai izvairītos no šī vīrieša."
   },
   "footer": {
     "phone": "Tālrunis",

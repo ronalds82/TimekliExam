@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -9,15 +10,24 @@ import { TranslateService } from '@ngx-translate/core';
 export class NavigationComponent {
   isResponsive = false;
   isDropdownOpen = false;
+  currentLanguage = 'lv';
 
-  constructor(private translate: TranslateService) { }
+  constructor(private translate: TranslateService,
+    private router: Router) { }
 
   get isLatvianEnabled(): boolean {
-    return this.translate.currentLang === 'lv';
+    return this.currentLanguage === 'lv';
   }
 
   get isEnglishEnabled(): boolean {
-    return this.translate.currentLang === 'en';
+    return this.currentLanguage === 'en';
+  }
+
+  get isDropdownLinkSelected(): boolean {
+    return this.router.url === '/sabiedriskais' ||
+      this.router.url === '/automasina' ||
+      this.router.url === '/ar-kajam' ||
+      this.router.url === '/alternativas';
   }
 
   toggleResponsive(): void {
@@ -30,5 +40,6 @@ export class NavigationComponent {
 
   changeLanguage(language: string): void {
     this.translate.use(language);
+    this.currentLanguage = language;
   }
 }

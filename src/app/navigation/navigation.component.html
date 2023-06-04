@@ -16,7 +16,8 @@
          {{ 'navbar.majas' | translate }}
       </a>
 
-      <div class="dropdown">
+      <div class="dropdown"
+           [ngClass]="{'active': isDropdownLinkSelected}">
          <div class="dropdown-title"
               (click)="toggleDropdown()">
             {{ 'navbar.cels' | translate }} >
@@ -65,18 +66,42 @@
          <div class="dropdown">
             <div class="dropdown-title"
                  (click)="toggleDropdown()">
-               🌍
+               🌍 / {{ currentLanguage | uppercase }}&nbsp;
+               <span class="flag-span">
+                  <img *ngIf="isLatvianEnabled"
+                       class="flag"
+                       width="25px"
+                       height="20px"
+                       src="../../assets/latvian.png">
+                  <img *ngIf="isEnglishEnabled"
+                       class="flag"
+                       width="25px"
+                       height="20px"
+                       src="../../assets/english.png">
+               </span>
             </div>
             <div class="dropdown-content">
                <a class="navbar-link"
                   [ngClass]="{'language-enabled': isLatvianEnabled}"
                   (click)="changeLanguage('lv')">
-                  LV
+                  LV&nbsp;
+                  <span class="flag-span">
+                     <img class="flag"
+                          width="25px"
+                          height="20px"
+                          src="../../assets/latvian.png">
+                  </span>
                </a>
                <a class="navbar-link"
                   [ngClass]="{'language-enabled': isEnglishEnabled}"
                   (click)="changeLanguage('en')">
-                  EN
+                  EN&nbsp;
+                  <span class="flag-span">
+                     <img class="flag"
+                          width="25px"
+                          height="20px"
+                          src="../../assets/english.png">
+                  </span>
                </a>
             </div>
          </div>

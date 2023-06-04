@@ -27,7 +27,7 @@ nav {
   font-weight: bold;
   text-align: center;
   min-width: 75px;
-  min-height: 28px;
+  min-height: 30px;
 }
 
 .navbar-link:hover {
@@ -72,6 +72,7 @@ nav {
 
 .language {
   margin-left: 65px;
+  background-color: #C1C7C9;
 }
 
 .language-enabled {
@@ -80,6 +81,15 @@ nav {
 
 .navbar-link {
   cursor: pointer;
+}
+
+.flag {
+  border-radius: 0 !important;
+}
+
+.flag-span {
+  display: inline-block;
+  vertical-align: middle;
 }
   
 @media (max-width: 1150px) {
@@ -106,8 +116,8 @@ nav {
     padding: 0;
     width: 30%;
     z-index: 2;
-    top: 10%;
-    right: 0;
+    margin-top: 540px;
+    right: 0%;
 
     .navbar-link, 
     .dropdown {
@@ -147,5 +157,11 @@ nav {
     background-color: @light-gray-color;
     z-index: 1;
     left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-right.responsive {
+    width: 45%;
   }
 }
