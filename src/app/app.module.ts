@@ -6,7 +6,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { MajasComponent } from './components/majas/majas.component';
 import { SabiedriskaisComponent } from './components/sabiedriskais/sabiedriskais.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateCompiler, TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { LinkButtonComponent } from './components/shared/link-button/link-button.component';
@@ -17,6 +17,7 @@ import { AlternativasComponent } from './components/alternativas/alternativas.co
 import { SkersliComponent } from './components/skersli/skersli.component';
 import { IespejasComponent } from './components/iespejas/iespejas.component';
 import { PiedzivojumiComponent } from './components/piedzivojumi/piedzivojumi.component';
+import { TranslateMessageFormatCompiler } from 'ngx-translate-messageformat-compiler';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,10 @@ import { PiedzivojumiComponent } from './components/piedzivojumi/piedzivojumi.co
         useFactory: HttpLoaderFactory,
         deps: [HttpClient],
       },
+      compiler: {
+        provide: TranslateCompiler,
+        useClass: TranslateMessageFormatCompiler
+      }
     }),
   ],
   providers: [],
