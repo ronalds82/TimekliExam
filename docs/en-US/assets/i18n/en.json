@@ -67,5 +67,9 @@
     "phone": "Phone",
     "email": "E-mail",
     "copyright": "I like copyrights"
+  },
+  "link-button": {
+    "next": "Next page",
+    "previous": "Previous page"
   }
 }

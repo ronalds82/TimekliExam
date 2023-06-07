@@ -25,8 +25,8 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "less",
+            "localize": ["lv", "en"],
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [

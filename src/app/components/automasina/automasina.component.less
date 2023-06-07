@@ -13,7 +13,6 @@
     padding: 100px;
     background-color: @white-color;
     color: @dark-blue-color;
-    display: flex;
 }
 
 .automasina-content-text {
@@ -31,6 +30,17 @@
     align-self: flex-end;
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    img {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
 @media (max-width: 1000px) {
     .automasina-content {
         flex-direction: column;
@@ -44,4 +54,27 @@
     .automasina-content-text {
         margin-right: 0;
     }
+    
+    .images {
+        flex-direction: column;
+        margin-top: 0px;
+    }
 }
+
+@media (max-width: 506px) {
+    .automasina-picture {
+        margin: 50px auto 0 auto;
+        width: 250px;
+        height: 250px;
+    }
+
+    .automasina-picture > img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .images img {
+        margin: 0px;
+    }
+}
+

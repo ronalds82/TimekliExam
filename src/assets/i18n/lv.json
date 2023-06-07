@@ -67,5 +67,9 @@
     "phone": "Tālrunis",
     "email": "E-pasts",
     "copyright": "Man patīk autortiesības"
+  },
+  "link-button": {
+    "next": "Nākamā sadaļa",
+    "previous": "Iepriekšējā sadaļa"
   }
 }

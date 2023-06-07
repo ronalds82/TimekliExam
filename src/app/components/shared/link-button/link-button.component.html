@@ -1,6 +1,7 @@
 <ng-container>
     <a *ngIf="!isReverse; else reverse"
        class="link-button"
+       attr.aria-label="{{ 'link-button.next' | translate }}"
        routerLink="{{ routerLink }}"
        routerLinkActive="active">
         <div class='nav-link'></div>
@@ -9,6 +10,7 @@
 
 <ng-template #reverse>
     <a class="link-button-reverse"
+       attr.aria-label="{{ 'link-button.previous' | translate }}"
        routerLink="{{ routerLink }}"
        routerLinkActive="active">
         <div class='nav-link-reverse'></div>
