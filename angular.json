@@ -17,9 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/TimekliExam",
+            "outputPath": "dist/timekliExam",
             "index": "src/index.html",
-            "baseHref": "/TimekliExam/",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
