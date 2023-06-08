@@ -18,6 +18,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/TimekliExam",
+            "baseHref": "TimekliExam",
             "index": "src/index.html",
             "baseHref": "/TimekliExam/",
             "main": "src/main.ts",
@@ -89,7 +90,6 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "less",
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
