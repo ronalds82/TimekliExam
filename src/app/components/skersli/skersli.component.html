@@ -1,9 +1,9 @@
 <div class="skersli-wrapper">
     <app-link-button [isReverse]="true"
-                     [routerLink]="'/alternativas'">
+                     [url]="'/alternativas'">
     </app-link-button>
     <app-link-button class="link-button-right"
-                     [routerLink]="'/iespejas'">
+                     [url]="'/iespejas'">
     </app-link-button>
 </div>
 
@@ -17,10 +17,18 @@
         </div>
     </div>
 
-    <div class="skersli-picture">
-        <img src="../../../assets/skersli.png"
-             alt="Šķēršļu bilde"
-             width="400px"
-             height="400px">
+    <div class="images">
+        <div class="kajas-picture">
+            <img src="../../../assets/rail-baltica.png"
+                 alt="Būvniecības darbi rail baltica projektam"
+                 width="400px"
+                 height="400px">
+        </div>
+        <div class="kajas-picture">
+            <img src="../../../assets/parking.png"
+                 alt="Stāvvieta pie Latvijas Zinātņu akadēmijas"
+                 width="400px"
+                 height="400px">
+        </div>
     </div>
 </div>

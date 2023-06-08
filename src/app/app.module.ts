@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { MajasComponent } from './components/majas/majas.component';
 import { SabiedriskaisComponent } from './components/sabiedriskais/sabiedriskais.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
 import { TranslateCompiler, TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -25,7 +24,6 @@ import { TranslateMessageFormatCompiler } from 'ngx-translate-messageformat-comp
     NavigationComponent,
     MajasComponent,
     SabiedriskaisComponent,
-    NotFoundComponent,
     LinkButtonComponent,
     FooterComponent,
     AutomasinaComponent,

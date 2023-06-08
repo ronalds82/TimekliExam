@@ -1,45 +1,36 @@
 <div class="sabiedriskais-wrapper">
     <app-link-button [isReverse]="true"
-                     [routerLink]="'/majas'">
+                     [url]="'/majas'">
     </app-link-button>
     <app-link-button class="link-button-right"
-                     [routerLink]="'/automasina'">
+                     [url]="'/automasina'">
     </app-link-button>
 </div>
 
 <div class="sabiedriskais-content">
-    <div class="sabiedriskais-content-full">
-        <div class="sabiedriskais-content-text">
-            <div class="sabiedriskais-content-title">{{ 'sabiedriskais.title' | translate }}</div>
-            <div>
-                <div>{{ 'sabiedriskais.paragraph1' | translate }}</div>
-                <br>
-                <div>{{ 'sabiedriskais.paragraph2' | translate }}</div>
-                <br>
-                <div>{{ 'sabiedriskais.paragraph3' | translate }}</div>
-            </div>
-        </div>
-
-        <div class="sabiedriskais-picture">
-            <img src="../../../assets/22trolejbuss.png"
-                 alt="22. trolejbuss"
-                 width="400px"
-                 height="400px">
+    <div class="sabiedriskais-content-text">
+        <div class="sabiedriskais-content-title">{{ 'sabiedriskais.title' | translate }}</div>
+        <div>
+            <div>{{ 'sabiedriskais.paragraph1' | translate }}</div>
+            <br>
+            <div>{{ 'sabiedriskais.paragraph2' | translate }}</div>
+            <br>
+            <div>{{ 'sabiedriskais.paragraph3' | translate }}</div>
         </div>
     </div>
 
-    <div class="sabiedriskais-content-full">
+    <div class="images">
         <div class="sabiedriskais-picture">
-            <img src="../../../assets/3autobuss.png"
-                 alt="3. autobuss"
+            <img src="../../../assets/22trolejbuss.png"
+                 alt="22. trolejbusa bilde"
                  width="400px"
                  height="400px">
         </div>
-
-        <div class="sabiedriskais-content-text-reverse">
-            <div>{{ 'sabiedriskais.paragraph4' | translate }}</div>
-            <br>
-            <div>{{ 'sabiedriskais.paragraph5' | translate }}</div>
+        <div class="sabiedriskais-picture">
+            <img src="../../../assets/3autobuss.png"
+                 alt="3. autobusa bilde"
+                 width="400px"
+                 height="400px">
         </div>
     </div>
 </div>

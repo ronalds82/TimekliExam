@@ -1,18 +1,22 @@
 <ng-container>
-    <a *ngIf="!isReverse; else reverse"
-       class="link-button"
-       attr.aria-label="{{ 'link-button.next' | translate }}"
-       routerLink="{{ routerLink }}"
-       routerLinkActive="active">
-        <div class='nav-link'></div>
-    </a>
+    <div class="link">
+        <a *ngIf="!isReverse; else reverse"
+           class="link-button"
+           attr.aria-label="{{ 'link-button.next' | translate }}"
+           routerLink="{{ url }}"
+           routerLinkActive="active">
+            <div class='nav-link'></div>
+        </a>
+    </div>
 </ng-container>
 
 <ng-template #reverse>
-    <a class="link-button-reverse"
-       attr.aria-label="{{ 'link-button.previous' | translate }}"
-       routerLink="{{ routerLink }}"
-       routerLinkActive="active">
-        <div class='nav-link-reverse'></div>
-    </a>
+    <div class="link">
+        <a class="link-button-reverse"
+           attr.aria-label="{{ 'link-button.previous' | translate }}"
+           routerLink="{{ url }}"
+           routerLinkActive="active">
+            <div class='nav-link-reverse'></div>
+        </a>
+    </div>
 </ng-template>

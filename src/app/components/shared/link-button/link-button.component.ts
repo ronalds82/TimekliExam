@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class LinkButtonComponent {
   @Input() isReverse!: boolean;
-  @Input() routerLink!: string;
+  @Input() url!: string;
 }

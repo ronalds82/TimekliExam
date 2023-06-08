@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NotFoundComponent } from './components/not-found/not-found.component';
 import { SabiedriskaisComponent } from './components/sabiedriskais/sabiedriskais.component';
 import { MajasComponent } from './components/majas/majas.component';
 import { AutomasinaComponent } from './components/automasina/automasina.component';
@@ -19,8 +18,7 @@ const routes: Routes = [
   { path: 'alternativas', component: AlternativasComponent },
   { path: 'skersli', component: SkersliComponent },
   { path: 'iespejas', component: IespejasComponent },
-  { path: 'piedzivojumi', component: PiedzivojumiComponent },
-  { path: '**', component: NotFoundComponent },
+  { path: 'piedzivojumi', component: PiedzivojumiComponent }
 ];
 
 @NgModule({
